@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Health Boost - KateringGO</title>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#1B9154',
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-gray-50">
+  <!-- header -->
+  <header class="bg-white shadow-md sticky top-0 z-50">
+      <nav class="container mx-auto py-4 flex justify-between items-center">
+          <a href="index.html" class="text-3xl font-bold"><span class="text-primary">Katering</span><span class="text-black">GO</span></a>
+          <ul class="hidden md:flex space-x-8 text-gray-700">
+              <li class="hover:text-primary"><a href="index.html#services">Services</a></li>
+              <li class="hover:text-primary"><a href="index.html#menu">Menu</a></li>
+              <li class="hover:text-primary"><a href="index.html#about">About</a></li>
+              <li><a href="index.html#contact" class="border-2 border-primary py-2 px-5 rounded-lg hover:bg-primary hover:text-white transition duration-300">Contact Us</a></li>
+          </ul>
+      </nav>
+  </header>
+
+    <!-- hero -->
+    <section class="relative bg-cover bg-center text-white py-40" style="background-image: url('/images/health-boost.jpg');">
+        <div class="container mx-auto text-center relative z-10">
+            <h3 class="text-5xl font-bold mb-5">Health Boost</h3>
+            <p class="text-lg mb-8">Nutrient-rich meals to support overall health and wellness.</p>
+        </div>
+        <div class="absolute inset-0 bg-black opacity-50"></div>
+    </section>
+
+    <!-- content -->
+    <section class="bg-gray-100 py-20">
+        <div class="container mx-auto">
+            <h3 class="text-4xl font-bold text-center text-gray-800 mb-5">Health Boost Plans</h3>
+            <p class="text-gray-500 text-center mb-12">Revitalize your body with our carefully crafted meal plans designed to promote overall health and wellness.</p>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <!-- plan 1 -->
+                <div class="bg-white shadow-lg rounded-lg p-8">
+                    <h4 class="text-2xl font-bold mb-2">Immunity Boost Plan</h4>
+                    <p class="text-gray-500 mb-4">Meals rich in vitamins and antioxidants to strengthen your immune system.</p>
+                    <ul class="list-disc list-inside text-gray-500">
+                        <li>Daily servings of fruits and vegetables</li>
+                        <li>Incorporates superfoods like turmeric and ginger</li>
+                        <li>Designed to support your body's natural defenses</li>
+                    </ul>
+                </div>
+
+                <!-- plan 2 -->
+                <div class="bg-white shadow-lg rounded-lg p-8">
+                    <h4 class="text-2xl font-bold mb-2">Energy Boost Plan</h4>
+                    <p class="text-gray-500 mb-4">Balanced meals to keep your energy levels high throughout the day.</p>
+                    <ul class="list-disc list-inside text-gray-500">
+                        <li>Includes complex carbs and healthy fats</li>
+                        <li>Rich in protein to sustain energy</li>
+                        <li>Customized to fit your daily schedule</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-8">
+        <div class="container mx-auto text-center">
+          <p>&copy; 2024 KateringGO. All rights reserved.</p>
+          <div class="flex justify-center items-center space-x-4 mt-4">
+              <a href="https://github.com/fahrurojak" class="text-gray-400 hover:text-white"><i class="fab fa-github"></i></a>
+              <a href="https://www.instagram.com/fahruphoto" class="text-gray-400 hover:text-white"><i class="fab fa-instagram"></i></a>
+              <a href="https://www.linkedin.com/in/fahrurojak" class="text-gray-400 hover:text-white"><i class="fab fa-linkedin-in"></i></a>
+          </div>          
+        </div>
+    </footer>
+</body>
+</html>
